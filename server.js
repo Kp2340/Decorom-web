@@ -8,7 +8,7 @@ const app = express();
 
 // Configure CORS to allow requests from your GitHub Pages frontend
 const corsOptions = {
-    origin: 'https://kp2340.github.io/Decorom-ecommerce/', // Replace with your actual GitHub Pages URL
+    origin: 'https://kp2340.github.io/', // Replace with your actual GitHub Pages URL
     methods: 'GET,POST', // Allow only necessary methods
     allowedHeaders: 'Content-Type', // Allow only necessary headers
 };
