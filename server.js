@@ -2,28 +2,19 @@ const express = require('express');
 const cors = require('cors');
 const { google } = require('googleapis');
 const fs = require('fs');
+
+// Initialize the Express app
+const app = express();
+
 // Configure CORS to allow requests from your GitHub Pages frontend
 const corsOptions = {
-    origin: (origin, callback) => {
-        if (!origin || origin === 'https://kp2340.github.io/Decorom-ecommerce/') {
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
-    methods: 'GET,POST',
-    allowedHeaders: 'Content-Type',
+    origin: 'https://kp2340.github.io/Decorom-ecommerce/', // Replace with your actual GitHub Pages URL
+    methods: 'GET,POST', // Allow only necessary methods
+    allowedHeaders: 'Content-Type', // Allow only necessary headers
 };
-app.use(cors(corsOptions));
-// const corsOptions = {
-//     origin: 'https://kp2340.github.io/Decorom-ecommerce/', // Replace with your actual GitHub Pages URL
-//     methods: 'GET,POST', // Allow only necessary methods
-//     allowedHeaders: 'Content-Type', // Allow only necessary headers
-// };
-// app.use(cors(corsOptions)); // Apply CORS with options
-// app.use(express.json()); // Allows requests from your React app (e.g., http://localhost:5173)
+app.use(cors(corsOptions)); // Apply CORS with options
+app.use(express.json()); // Allows requests from your React app (e.g., http://localhost:5173)
 
-// const credentials = JSON.parse(fs.readFileSync('credentials.json'));
 const auth = new google.auth.GoogleAuth({
     credentials: {
         client_email: process.env.GOOGLE_CLIENT_EMAIL,
@@ -33,7 +24,7 @@ const auth = new google.auth.GoogleAuth({
 });
 const sheets = google.sheets({ version: 'v4', auth });
 
-const spreadsheetId =   process.env.SPREADSHEET_ID; // Replace with your Spreadsheet ID
+const spreadsheetId = process.env.SPREADSHEET_ID; // Replace with your Spreadsheet ID
 const range = 'Sheet1!A:E'; // Adjust range as needed
 
 app.post('/api/submit-inquiry', async (req, res) => {
