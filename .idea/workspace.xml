@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a8c94e2-a945-45d6-b1e7-7b3778740c17" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ysNq4mypLkwR7yGNc0BEk5IdDu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.Start Backend Server.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;J:/IdeaProjects/Decorom/backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="J:\IdeaProjects\backend" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Start Backend Server" type="NodeJSConfigurationType" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="PORT" value="3000" />
+        <env name="GOOGLE_CLIENT_EMAIL" value="decorom-inquiries@decorom-inquiries.iam.gserviceaccount.com" />
+        <env name="GOOGLE_PRIVATE_KEY" value="-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCojDuIsJaU0bbm\nmoh0ejJZ3J63x4GcVWrj1jc1tIhquA0hErlb6xZbtZQOq/HJ5DjK+hdeGhtJVHJ9\nY78APC42VzpJtn9wHP6bAhpvS/TUNBu/SoGlI5zFF8hLRN1SkZ2jVnDwKVYIMxCn\n6+QNSpOR6Px1w4+4ZoN1qYDvH0E97/cp4c4Vk6pMkNO6zruwKdxuslZYWHPp+8Wm\nryxQ4L0YKkmas31NAoSXlVki7qSEOUcqLCSxmSJem7zvLnbdLUKvq48UT8aDOWLN\nKi70D+w3xU3GUkRyDZIT6DDUym4rtekuN/HZybiZt+p30aOE3vFgPb7j5WyHz3Pj\nXQZrvQYbAgMBAAECggEAC7fMKnb/Jmjkyr2IVR4Vwrzy5UYKkyA2e+aYagnGHjKe\nPw66h6hyzSd08VwvmuCyDh07DgDJ+twoeuKPaehv3LlNxR2ErfpmEnLKpwg52khR\nJt3QNkyhM+wGXIKffIPBLj+ZPykwi7C5LLjatGMwmp6pxqo0+MCvzQ4Jd8Ei27e7\n4XkUv0Zg0IstATmoZbC7uvVsJ+tJScZf/cH1oDqJuzvj1DKkv20QWojUZ3AFCODb\nnGMkDuVpEHl8IfaYXoQzrwd14Du+TzDnDi06U0yE5F+GqLHrvXT6XD4x/A5vGQJl\nJJsc0BJHztUJU6+UysaG0sgD628BzFF2xk0lVpDT6QKBgQDko4GcD0gXGRBN/QNf\nYGjq0O6UgfuRaPh5VDQKregWvJDydgzseT26Qpbl7p2ulX9kqWkwDarV1PfM9284\nSgmUipwXQQy0UPPbdKn4i7FpY8ls0DpuheA7tzuUjBRyx82mRcmxvcJYTbhoFIJz\n81pAmAIZCPM1+SqgvrcoLxc5dQKBgQC8t81tKv79NXzgg8FEtnjj7J8xU+TXlPCx\n9FEaD0mr7thW7qYGkcev2o4tEd6T7pUTEio35HFmmHFHtFIrbY5/FfUHW+hpz+D6\n7wGF/jS8WXBBg1kxQk5/QK5u3zoj8zV4bxfQRW6rsQdF0RnbjQ/PStYBnlN52WSx\nce0c5mS/TwKBgQDDWmEXsobqFWQ0/oWvLHT4jWQMR7Nm3sXPBP8iUM0JADzora0F\nL+JqDxNXirX3wYyDuaxCfqsE4V6JJrFE6x2caYJM7CuqtbBmRhwkXVdMsRIdgx0p\n6gFZhInHtpiSKd2wv9hBod04DdAOPdfosnje0AKa2WbVKvwdNFbSYsn5MQKBgQCU\nFCU849/xD2dNRBUCtatmLOU873dBMb0r5Wk96YEFSAS5MclUnk7xzayB8OOVcD/J\nFxfJg5b3yeYZPYS8TtrhHXmGrLdRT6xZOfEYEr+Oix9qSIZUAJNXholYthAI5W2v\ncnxdEB4m2mG6hrijbaxaG36RBoq5sbsxARPs+VtUQQKBgQC586KDDg/AmNmp0tKG\nbFWYwRA3dL+vXPn9sGgqGJYDjM80WDW8Qz6vbiv2LfApIrqdLMuFhtN8MIZqSUuL\nZB62bfMVQxUDpYqyaa9NtkeykA+eP6AdXk3Nb/n8QHvsgPIaUGOFtKHLGtK+nSmf\nyVYlc02Yiu9iN8S6Gzod4bpmug==\n-----END PRIVATE KEY-----\n" />
+        <env name="SPREADSHEET_ID" value="1xVxxev46enqDM25qW1IZszu8I9BvCbNuZBsB3yGX-tc" />
+      </envs>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a8c94e2-a945-45d6-b1e7-7b3778740c17" name="Changes" comment="" />
+      <created>1750619508120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750619508120</updated>
+      <workItem from="1750619509662" duration="6120000" />
+      <workItem from="1750626912234" duration="4167000" />
+      <workItem from="1750669484181" duration="4275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
