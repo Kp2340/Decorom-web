@@ -5,7 +5,7 @@ const fs = require('fs');
 // Configure CORS to allow requests from your GitHub Pages frontend
 const corsOptions = {
     origin: (origin, callback) => {
-        if (!origin || origin === 'https://your-username.github.io/decorom-name-plates/') {
+        if (!origin || origin === 'https://kp2340.github.io/Decorom-ecommerce/') {
             callback(null, true);
         } else {
             callback(new Error('Not allowed by CORS'));
