@@ -8,12 +8,12 @@ const app = express();
 
 // Configure CORS to allow requests from your GitHub Pages frontend
 const corsOptions = {
-    origin: 'https://kp2340.github.io/', // Replace with your actual GitHub Pages URL
-    methods: 'GET,POST', // Allow only necessary methods
-    allowedHeaders: 'Content-Type', // Allow only necessary headers
+    origin: 'https://kp2340.github.io',
+    methods: 'GET,POST',
+    allowedHeaders: 'Content-Type',
 };
-app.use(cors(corsOptions)); // Apply CORS with options
-app.use(express.json()); // Allows requests from your React app (e.g., http://localhost:5173)
+app.use(cors(corsOptions));
+app.use(express.json());
 
 const auth = new google.auth.GoogleAuth({
     credentials: {
